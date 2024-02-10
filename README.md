@@ -18,3 +18,9 @@
     5. Withdrawal and Sending Money
     5. Transaction History and Categorization
     6. Downloading Transaction History
+
+## Technology
+    1. PHP 8.1
+    2. Laravel 10 Framework
+    3. MYSQL Database
+    4. Postman 
