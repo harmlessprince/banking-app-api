@@ -25,6 +25,12 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 
+Route::get('health', function () {
+    return response()->json([
+        'status' => 'success',
+        'message' => 'API is healthy'
+    ]);
+});
 
 Route::prefix('auth')->group(function () {
 //    dd(\request()->isProduction());
